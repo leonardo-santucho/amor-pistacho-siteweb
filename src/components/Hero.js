@@ -12,7 +12,7 @@ return (
             <motion.h1
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1 }}
+                transition={{ duration: 2, delay: 0.5 }}
                 className="text-white text-5xl md:text-7xl font-bold italic font-raleway tracking-wide drop-shadow-lg text-center"
             >
                 amor<br />pistacho
